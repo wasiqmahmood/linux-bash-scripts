@@ -1,6 +1,14 @@
 # linux-bash-scripts
 
+---
 
+## 🛠️ Requirements
+
+    Bash 4.0+
+
+    Linux/Unix environment
+
+    Common utilities: grep, awk, sort, uniq
 ---
 
 ## 📄 License
