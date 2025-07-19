@@ -17,11 +17,11 @@ Run it with your log file: ./log_analyzer.sh /var/log/application.log
 
 Bash Script for Real-Time System Health Monitoring
 
-    Save the script as system_monitor.sh
+  1.  Save the script as system_monitor.sh
 
-    Make it executable: chmod +x system_monitor.sh
+  2.  Make it executable: chmod +x system_monitor.sh
 
-    Run it: ./system_monitor.sh
+  3.  Run it: ./system_monitor.sh
 
 ---
 
@@ -31,7 +31,6 @@ Bash 4.0+
 
 Linux/Unix environment
 
-Common utilities: grep, awk, sort, uniq
 ---
 
 ## 📄 License
