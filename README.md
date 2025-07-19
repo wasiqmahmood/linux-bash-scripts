@@ -27,11 +27,11 @@ Bash Script for Real-Time System Health Monitoring
 
 ## 🛠️ Requirements
 
-    Bash 4.0+
+Bash 4.0+
 
-    Linux/Unix environment
+Linux/Unix environment
 
-    Common utilities: grep, awk, sort, uniq
+Common utilities: grep, awk, sort, uniq
 ---
 
 ## 📄 License
