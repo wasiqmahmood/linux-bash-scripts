@@ -2,7 +2,22 @@
 
 ---
 
-## 🖥️ Usage Instructions:
+# 🐧 Linux System Administration Scripts
+
+Two powerful Bash scripts for log analysis and system monitoring.
+
+## 📦 Scripts Overview
+
+### 🔍 `log_analyzer.sh` 
+**Purpose**: Analyze log files for errors, warnings, and patterns  
+**Features**:
+✔ Counts ERROR/WARNING/INFO messages  
+✔ Identifies top 5 frequent errors  
+✔ Generates timeline of first/last errors  
+✔ Creates hourly error distribution charts  
+✔ Outputs formatted report (text/file)  
+
+**Usage**:
 
 Bash Script for Log File Analysis
 
@@ -12,6 +27,17 @@ Bash Script for Log File Analysis
 
   3. Run it with your log file: ./log_analyzer.sh /var/log/application.log
 
+## 📊 system_health_monitor.sh
+
+Purpose: Real-time system performance monitoring
+Features:
+✔ Live CPU/Memory/Disk usage tracking
+✔ Process monitoring (top resource hogs)
+✔ Network connectivity checks
+✔ Customizable refresh interval
+✔ Threshold-based alerts (visual/audio)
+
+**Usage**:
 
 Bash Script for Real-Time System Health Monitoring
 
