@@ -4,8 +4,6 @@
 
 ## 🖥️ Usage Instructions:
 
-Usage Instructions:
-
 Bash Script for Log File Analysis
 
   1. Save it as log_analyzer.sh
