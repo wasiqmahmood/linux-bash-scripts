@@ -30,7 +30,7 @@ Bash Script for Log File Analysis
 
   3. Run it with your log file: ./log_analyzer.sh /var/log/application.log
 
-## 📊 system_health_monitor.sh
+### 📊 'system_health_monitor.sh'
 
 **Purpose**: Real-time system performance monitoring
 
