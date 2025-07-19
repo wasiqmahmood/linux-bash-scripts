@@ -36,11 +36,11 @@ Bash Script for Log File Analysis
 
 **Features**:
 
-✔ Live CPU/Memory/Disk usage tracking
-✔ Process monitoring (top resource hogs)
-✔ Network connectivity checks
-✔ Customizable refresh interval
-✔ Threshold-based alerts (visual/audio)
+✔ Live CPU/Memory/Disk usage tracking  
+✔ Process monitoring (top resource hogs)  
+✔ Network connectivity checks  
+✔ Customizable refresh interval  
+✔ Threshold-based alerts (visual/audio)  
 
 **Usage**:
 
