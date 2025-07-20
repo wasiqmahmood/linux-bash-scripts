@@ -20,15 +20,17 @@ Two powerful Bash scripts for log analysis and system monitoring.
 ✔ Creates hourly error distribution charts  
 ✔ Outputs formatted report (text/file)  
 
-**Usage**:
+✅ How to Use
 
-Bash Script for Log File Analysis
+    Save this script as log_analyzer.sh.
 
-  1. Save it as log_analyzer.sh
+    Make it executable:
+          
+          chmod +x log_analyzer.sh
 
-  2. Make it executable: chmod +x log_analyzer.sh
+    Run it with your log file:
 
-  3. Run it with your log file: ./log_analyzer.sh /var/log/application.log
+          ./log_analyzer.sh /var/log/application.log
 
 ### 📊 `system_health_monitor.sh`  
 
