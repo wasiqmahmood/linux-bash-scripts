@@ -18,13 +18,13 @@ Two powerful Bash scripts for log analysis and system monitoring.
 
 ✔ Analyzes the log file for:
 
-    Number of ERROR, WARNING, and INFO messages
+    Number of ERROR, WARNING, and INFO messages    
 
-    Top 5 most common error messages
+    Top 5 most common error messages       
 
-    Timestamp of the first and last error
+    Timestamp of the first and last error        
 
-    Error frequency grouped by hour of the day
+    Error frequency grouped by hour of the day        
 
 ✔ Visually displays a histogram of error frequency using ASCII bar graphs
 
