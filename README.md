@@ -32,6 +32,18 @@ Run it with your log file:
 
           ./log_analyzer.sh /var/log/application.log    
 
+## 🛠️ Requirements
+
+⚠️ Requirements
+
+    Linux environment (Ubuntu, Debian, etc.)
+
+    Uses grep, sed, awk, stat, date, cut, head, tail, sort, uniq, printf, tee etc.
+
+
+---
+
+
 ### 📊 `system_health_monitor.sh`  
 
 **Purpose**: Real-time system performance monitoring
@@ -58,13 +70,16 @@ Make it executable:
 Run it:          
 
           ./system_monitor.sh
----
 
 ## 🛠️ Requirements
 
-Bash 4.0+
+⚠️ Requirements
 
-Linux/Unix environment
+    Linux environment (Ubuntu, Debian, etc.)
+
+    Network interface must be eth0 (adjust if needed)
+
+    Uses top, df, free, ps, /proc, etc.
 
 ---
 
