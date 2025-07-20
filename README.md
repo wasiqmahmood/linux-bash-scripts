@@ -34,8 +34,6 @@ Run it with your log file:
 
 ## 🛠️ Requirements
 
-⚠️ Requirements
-
     Linux environment (Ubuntu, Debian, etc.)
 
     Uses grep, sed, awk, stat, date, cut, head, tail, sort, uniq, printf, tee etc.
@@ -72,8 +70,6 @@ Run it:
           ./system_monitor.sh
 
 ## 🛠️ Requirements
-
-⚠️ Requirements
 
     Linux environment (Ubuntu, Debian, etc.)
 
