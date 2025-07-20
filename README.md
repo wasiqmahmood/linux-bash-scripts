@@ -44,16 +44,20 @@ Run it with your log file:
 ✔ Customizable refresh interval  
 ✔ Threshold-based alerts (visual/audio)  
 
-**Usage**:
+✅ How to Run
 
-Bash Script for Real-Time System Health Monitoring
+    Save the script:
 
-  1.  Save the script as system_monitor.sh
+          nano system_monitor.sh
+# Paste the script
 
-  2.  Make it executable: chmod +x system_monitor.sh
+Make it executable:
 
-  3.  Run it: ./system_monitor.sh
+          chmod +x system_monitor.sh
 
+Run it:
+
+          ./system_monitor.sh
 ---
 
 ## 🛠️ Requirements
