@@ -6,19 +6,29 @@
 
 Two powerful Bash scripts for log analysis and system monitoring.
 
-## 📦 Scripts Overview
+## 📦 Log Analyzer 
 
 ### 🔍 `log_analyzer.sh` 
 
-**Purpose**: Analyze log files for errors, warnings, and patterns  
+**Purpose**: The log_analyzer.sh script is designed to analyze log files and generate a detailed report of system or application activity based on common log levels (ERROR, WARNING, INFO).  
 
 **Features**:
 
-✔ Counts ERROR/WARNING/INFO messages  
-✔ Identifies top 5 frequent errors  
-✔ Generates timeline of first/last errors  
-✔ Creates hourly error distribution charts  
-✔ Outputs formatted report (text/file)  
+✔ Checks if a log file is provided and exists
+
+✔ Analyzes the log file for:
+
+    Number of ERROR, WARNING, and INFO messages
+
+    Top 5 most common error messages
+
+    Timestamp of the first and last error
+
+    Error frequency grouped by hour of the day
+
+✔ Visually displays a histogram of error frequency using ASCII bar graphs
+
+✔ Saves the entire report to a timestamped .txt file 
 
 ✅ How to Use
 
@@ -41,18 +51,33 @@ Run it with your log file:
 
 ---
 
+## 📦 System health Monitor
 
 ### 📊 `system_health_monitor.sh`  
 
-**Purpose**: Real-time system performance monitoring
+**Purpose**: The health_monitor.sh script provides a live, terminal-based dashboard that displays real-time system health metrics every few seconds.
 
 **Features**:
 
-✔ Live CPU/Memory/Disk usage tracking  
-✔ Process monitoring (top resource hogs)  
-✔ Network connectivity checks  
-✔ Customizable refresh interval  
-✔ Threshold-based alerts (visual/audio)  
+Continuously displays system stats (auto-refreshes every 3 seconds)
+
+Shows:
+
+✔  Hostname, date, uptime
+
+✔  CPU usage with process breakdown and alert level
+
+✔  Memory usage with breakdown (free, cache, buffers)
+
+✔  Disk usage of key mounts with alert thresholds
+
+✔  Network usage (in/out speed on eth0)
+
+✔  Load averages (1, 5, 15 minutes)
+
+✔ Recent alerts if thresholds are exceeded (simulated or real)
+
+Uses ASCII bars and color-coded status: [OK], [WARNING], [CRITICAL] 
 
 ✅ How to Run
 
