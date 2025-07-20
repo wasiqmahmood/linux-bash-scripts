@@ -22,13 +22,13 @@ Two powerful Bash scripts for log analysis and system monitoring.
 
 ✅ How to Use
 
-    Save this script as log_analyzer.sh.    
+Save this script as log_analyzer.sh.    
 
-    Make it executable:
+Make it executable:
           
           chmod +x log_analyzer.sh    
 
-    Run it with your log file:
+Run it with your log file:
 
           ./log_analyzer.sh /var/log/application.log    
 
