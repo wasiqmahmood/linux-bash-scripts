@@ -46,16 +46,16 @@ Run it with your log file:
 
 ✅ How to Run
 
-    Save the script:
+Save the script:          
 
           nano system_monitor.sh
           # Paste the script
 
-Make it executable:
+Make it executable:          
 
           chmod +x system_monitor.sh
 
-Run it:
+Run it:          
 
           ./system_monitor.sh
 ---
