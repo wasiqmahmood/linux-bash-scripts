@@ -49,7 +49,7 @@ Run it with your log file:
     Save the script:
 
           nano system_monitor.sh
-# Paste the script
+          # Paste the script
 
 Make it executable:
 
